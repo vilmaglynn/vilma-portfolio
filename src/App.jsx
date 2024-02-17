@@ -1,14 +1,24 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import styles from './App.module.css'
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Header from './components/Header';
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
-  )
-
+    <Router>
+      <Header />
+      <div className="container mt-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
