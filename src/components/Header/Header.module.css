@@ -1,9 +1,8 @@
 /* navbar */
 .nav {
   background-color: var(--color-bg);
-  padding-top: 61px;
+  padding-top: 61px !important;
   z-index: 2;
-  margin: 0 10%;
 }
 
 .title {
@@ -13,11 +12,11 @@
   color: var(--color-text);
 }
 
-.menuItems {
+/* .menuItems {
   font-size: 25px;
   color: var(--color-text) !;
   text-decoration: none;
   list-style: none;
   display: flex;
   gap: 47px;
-}
+} */
