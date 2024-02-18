@@ -4,8 +4,8 @@ import React from 'react';
 const Experience = () => {
 	return (
 		<div>
-			<h1>About</h1>
-			<p>Learn more about us.</p>
+			<h1>Experience</h1>
+			<p>My experience.</p>
 		</div>
 	);
 }
