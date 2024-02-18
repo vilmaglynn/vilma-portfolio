@@ -1,12 +1,13 @@
 // Navbar.js
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import styles from "./Header.module.css"
 
 const Header = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav className={`navbar navbar-expand-md  navbar-dark ${styles.nav}`}>
 			<div className="container">
-				<NavLink className="navbar-brand" to="/">Portfolio</NavLink>
+				<NavLink className={styles.title} to="/">Portfolio</NavLink>
 				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
