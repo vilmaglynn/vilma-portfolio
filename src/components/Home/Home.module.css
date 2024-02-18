@@ -17,24 +17,19 @@
 
 /* hero */
 .title {
-  font-size: 72px;
-  font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  color: var(--color-text);
 }
 
+.titleName {
+  color: #ffea00;
+}
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
-  color: var(--color-text);
+  color: #16c9fb;
 }
 
 .heroImg {
