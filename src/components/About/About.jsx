@@ -21,16 +21,16 @@ const About = () => {
 					</p>
 				</div>
 				<div className="col-lg-6">
-					<img src={getImageUrl("aboutcode2.svg")} alt="" className={styles.aboutcode} />
+					<img src={getImageUrl("aboutcode2.svg")} alt="" className={`img-fluid ${styles.aboutcode}`} />
 				</div>
 				<hr></hr>
 			</div>
 			<div className="row mt-5">
 				<div className="col-lg-12">
 					<h2>Skills</h2>
-					<div className="row g-5">
+					<div className="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 g-4">
 						{skillsData.map(skill => (
-							<div className="col-md-4" key={skill.id}>
+							<div className="col" key={skill.id}>
 								<div className="d-flex flex-column align-items-center">
 									<FontAwesomeIcon icon={skill.icon} className={styles.skillsIcons} />
 									<p className="mt-2">{skill.name}</p>
@@ -45,3 +45,4 @@ const About = () => {
 }
 
 export default About;
+

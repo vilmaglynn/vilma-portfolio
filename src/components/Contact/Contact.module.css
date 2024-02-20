@@ -1,15 +1,25 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
   margin-top: 120px;
-  background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
+}
+.icon {
+  color: black;
+  height: 50px;
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Horizontally center the container */
+  align-items: center; /* Vertically center the container */
 }
 
 .text h2 {
@@ -39,7 +49,6 @@
 }
 
 .link a {
-  color: var(--color-text);
   text-decoration: none;
   font-size: 30px;
   font-weight: 400;

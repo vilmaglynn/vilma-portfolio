@@ -18,9 +18,8 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 const App = () => {
   return (
     <Router>
-      <div className={styles.App}>
-        <Header />
-
+      <Header />
+      <div className={styles.body}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -28,8 +27,12 @@ const App = () => {
           {/* <Route path="/projects" element={<Projects />} /> */}
           <Route path="/contact" element={<Contact />} />
         </Routes>
+
+
       </div>
-    </Router>
+
+
+    </Router >
   );
 }
 
