@@ -1,44 +1,34 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import styles from "./Contact.module.css"
+import React from "react";
 
-const Contact = () => {
+import styles from "./Contact.module.css";
+import { getImageUrl } from "../../utils";
+
+export const Contact = () => {
 	return (
-		<div className="contact-section">
-			<h2>Contact</h2>
-			<ul className="contact-list">
-				<li>
-					<a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-						<FontAwesomeIcon icon={faGithub} />
-					</a>
+		<footer id="contact" className={styles.container}>
+			<div className={styles.text}>
+				<h2>Contact</h2>
+				<p>Feel free to reach out!</p>
+			</div>
+			<ul className={styles.links}>
+				<li className={styles.link}>
+					<img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+					<a href="mailto:myemail@email.com">myemail@email.com</a>
 				</li>
-				<li>
-					<a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-						<FontAwesomeIcon icon={faLinkedin} />
-					</a>
+				<li className={styles.link}>
+					<img
+						src={getImageUrl("contact/linkedinIcon.png")}
+						alt="LinkedIn icon"
+					/>
+					<a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
+				</li>
+				<li className={styles.link}>
+					<img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+					<a href="https://www.github.com/myname">github.com/myname</a>
 				</li>
 			</ul>
-			<div className="container">
-				<h3>Contact Form</h3>
-				<form className={styles.smallerForm}> {/* Add the custom class */}
-					<div className="mb-3">
-						<label htmlFor="name" className="form-label">Name</label>
-						<input type="text" className="form-control" id="name" />
-					</div>
-					<div className="mb-3">
-						<label htmlFor="email" className="form-label">Email</label>
-						<input type="email" className="form-control" id="email" />
-					</div>
-					<div className="mb-3">
-						<label htmlFor="message" className="form-label">Message</label>
-						<textarea className="form-control" id="message" rows="3"></textarea>
-					</div>
-					<button type="submit" className="btn btn-primary">Submit</button>
-				</form>
-			</div>
-		</div>
+		</footer>
 	);
-}
+};
 
 export default Contact;

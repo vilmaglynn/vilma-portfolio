@@ -1,27 +1,16 @@
-@import "../../vars.css";
+/* Experience.css */
 .experience {
-  display: flex;
-  flex-direction: column;
+  padding: 20px;
+}
+
+.experiencelist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .experienceitem {
-  margin-bottom: 20px;
-}
-
-.experiencedate {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.experienceinfo h3 {
-  margin-bottom: 5px;
-}
-
-.experienceinfo h4 {
-  font-weight: normal;
-  margin-bottom: 5px;
-}
-
-.experienceinfo p {
-  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
 }
