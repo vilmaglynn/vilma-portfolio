@@ -1,16 +1,14 @@
-/* Experience.css */
-.experience {
-  padding: 20px;
-}
-
-.experiencelist {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
 .experienceitem {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 20px; /* Add margin to the left */
+}
+
+.date {
+  width: 150px;
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 20px;
 }

@@ -14,13 +14,13 @@
   height: 50px;
 }
 
-.body {
+/* .body {
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center; /* Horizontally center the container */
-  align-items: center; /* Vertically center the container */
-}
+  justify-content: center;
+  align-items: center;
+} */
 
 .text h2 {
   font-size: 80px;
@@ -53,21 +53,4 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
-}
-
-@media screen and (max-width: 830px) {
-  .container {
-    flex-direction: column;
-    gap: 23px;
-  }
-
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .links {
-    align-items: center;
-  }
 }

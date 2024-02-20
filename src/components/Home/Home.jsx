@@ -15,7 +15,7 @@ const Home = () => {
 					<div className="col-md-6">
 						<div >
 							<h1 className={`display-4 ${styles.title}`}>Hello, I'm <span className={styles.titleName}>Vilma Hernandez</span></h1>
-							<p className={`lead ${styles.description}`}>Frontend Software Developer -Javascript and React enthusiast 🔆</p>
+							<p className={`lead ${styles.description}`}>Frontend Software Developer - Javascript and React enthusiast 🔆</p>
 							<a href="mailto:@gmail.com" className={styles.contactBtn}></a>
 						</div>
 					</div>
