@@ -19,19 +19,19 @@ const Contact = () => {
 					<ul className={styles.links}>
 						<li className={styles.link}>
 							<FontAwesomeIcon icon="fa-solid fa-envelope" className={styles.icon} />
-							<a href="mailto:myemail@email.com">myemail@email.com</a>
+							<a href="mailto:vilmahernandezglynn@gmail.com">vilmahernandezglynn@gmail.com</a>
 						</li>
 						<li className={styles.link}>
 							<FontAwesomeIcon icon="fa-brands fa-linkedin" className={styles.icon} />
-							<a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
+							<a href="https://www.linkedin.com/in/vilmahernandez-33566685/">https://www.linkedin.com/in/vilmahernandez-33566685/</a>
 						</li>
 						<li className={styles.link}>
 							<FontAwesomeIcon icon="fa-brands fa-github" className={styles.icon} />
-							<a href="https://www.github.com/myname">github.com/myname</a>
+							<a href="https://github.com/vilmaglynn">https://github.com/vilmaglynn</a>
 						</li>
 						<li className={styles.link}>
 							<FontAwesomeIcon icon="fa-solid fa-phone" className={styles.icon} />
-							<a href="tel:+1234567890">123-456-7890</a>
+							<a href="tel:+1234567890">07970469698</a>
 						</li>
 						<li className={styles.link}>
 							<FontAwesomeIcon icon="fa-solid fa-file-pdf" className={styles.icon} />
