@@ -8,31 +8,14 @@ I am Vilma Hernandez, a passionate Software Developer with a keen interest in Ja
 
 ## Portfolio Structure
 
-1. About Me
-Introduction: Brief introduction about yourself.
-Skills: List of skills or technologies you are proficient in.
-Education: Your educational background and qualifications.
-Experience: Summary of your professional experience.
-2. Projects
-List of projects you have worked on.
-Each project should include:
-Title
-Description
-Technologies used
-Link to the project (if applicable)
-3. Contact Information
-How to reach out to you:
-Email
-LinkedIn
-GitHub
-Getting Started
+![portfolio](./assests/screenshot.png)
 
 To explore my portfolio, simply navigate to the respective sections:
+Deployed Link https://vilmaglynn.github.io/vilma-portfolio/
 
-About Me: [Link]
-Projects: [Link]
-Contact: [Link]
-Feedback
+About Me: [(https://vilmaglynn.github.io/about)]
+Projects: [https://vilmaglynn.github.io/projects]
+Contact: [https://vilmaglynn.github.io/contact]
 
 I value your feedback! If you have any suggestions or questions, feel free to reach out to me.
 
