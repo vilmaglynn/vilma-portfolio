@@ -31,7 +31,7 @@ const Contact = () => {
 						</li>
 						<li className={styles.link}>
 							<FontAwesomeIcon icon="fa-solid fa-phone" className={styles.icon} />
-							<a href="tel:+1234567890">07970469698</a>
+							<a href="tel:+447970469698">07970469698</a>
 						</li>
 						<li className={styles.link}>
 							<FontAwesomeIcon icon="fa-solid fa-file-pdf" className={styles.icon} />
