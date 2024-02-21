@@ -10,21 +10,23 @@ const ProjectGallery = ({ project }) => {
 
 	return (
 		<div className="container mt-5">
-			<div className="card h-100">
-				<img
-					src={getImageUrl(imageSrc)}
-					alt={`Image of ${title}`}
-					className="card-img-top"
-				/>
-				<div className="card-body">
-					<h5 className="card-title">{title}</h5>
+			<div className={`card h-100 ${styles.projectCard}`}>
+				<div className={styles.imageContainer}>
+					<img
+						src={getImageUrl(imageSrc)}
+						alt={`Image of ${title}`}
+						className={styles.projectImage}
+					/>
+				</div>
+				<div className={`card-body ${styles.titleHeading}`}>
+					<h3 className={styles.title}>{title}</h3>
 					<p className="card-text">{description}</p>
 				</div>
 				<div className="card-footer">
 					<small className="text-muted">Skills: {skills.join(", ")}</small>
 				</div>
 				<div className="card-footer">
-					<a href={deployedLink} className="btn btn-primary me-2" target="_blank" rel="noopener noreferrer">Deployed Version</a>
+					<a href={deployedLink} className="btn btn-secondary me-2" target="_blank" rel="noopener noreferrer">Deployed Version</a>
 					<a href={githubLink} className="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
 				</div>
 			</div>

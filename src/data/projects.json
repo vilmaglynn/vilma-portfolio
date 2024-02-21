@@ -1,56 +1,56 @@
 [
 	{
-	  "title": "Project A",
-	  "imageSrc": "projects/projectA.png",
-	  "description": "This is a project made to learn the latest languages by building an app.",
-	  "skills": ["React", "Express", "Node"],
-	  "deployedLink": "https://example.com/projectA",
-	  "githubLink": "https://github.com/username/projectA",
-	  "demoGifSrc": "projects/projectA-demo.gif"
+	  "title": "Password Generator",
+	  "imageSrc": "password_generator.png",
+	  "description": "Generate a random password based on selected criteria.",
+	  "skills": ["JavaScript","CSS","HTML"],
+	  "deployedLink": "https://vilmaglynn.github.io/password-generator/",
+	  "githubLink": "https://github.com/vilmaglynn/password-generator"
+	 
 	},
 	{
-	  "title": "Project B",
-	  "imageSrc": "projects/projectB.png",
-	  "description": "This is a project made to learn the latest languages by building an app.",
-	  "skills": ["React", "Express", "Node", "Sass"],
-	  "deployedLink": "https://example.com/projectB",
-	  "githubLink": "https://github.com/username/projectB",
-	  "demoGifSrc": "projects/projectB-demo.gif"
+	  "title": "Musicfy",
+	  "imageSrc": "musicfy.png",
+	  "description": "app that searches for artist album and related articles about the artist.",
+	  "skills": ["JavaScript","CSS","HTML"],
+	  "deployedLink": "https://vilmaglynn.github.io/musicfy/",
+	  "githubLink": "https://github.com/vilmaglynn/musicfy"
+	 
 	},
 	{
-	  "title": "Project C",
-	  "imageSrc": "projects/projectC.png",
-	  "description": "This is a project made to learn the latest languages by building an app.",
-	  "skills": ["React", "Express", "Node"],
-	  "deployedLink": "https://example.com/projectC",
-	  "githubLink": "https://github.com/username/projectC",
-	  "demoGifSrc": "projects/projectC-demo.gif"
+	  "title": "Coding Quiz",
+	  "imageSrc": "coding-quiz-image.png",
+	  "description": "A timed coding quiz with multiple-choice questions.",
+	  "skills": ["JavaScript","CSS","HTML"],
+	  "deployedLink": "https://vilmaglynn.github.io/coding-quiz/",
+	  "githubLink": "https://github.com/vilmaglynn/coding-quiz"
+
 	},
 	{
-	  "title": "Project A",
-	  "imageSrc": "projects/projectA.png",
-	  "description": "This is a project made to learn the latest languages by building an app.",
-	  "skills": ["React", "Express", "Node"],
-	  "deployedLink": "https://example.com/projectA",
-	  "githubLink": "https://github.com/username/projectA",
-	  "demoGifSrc": "projects/projectA-demo.gif"
+	  "title": "Weather-dashboard",
+	  "imageSrc": "weatherapp_image.png",
+	  "description": "EDx Bootcamp challenge - Create a weather app",
+	  "skills": ["JavaScript","CSS","HTML"],
+	  "deployedLink": "https://vilmaglynn.github.io/weather-dashboard/",
+	  "githubLink": "https://github.com/vilmaglynn/weather-dashboard"
+	
 	},
 	{
-	  "title": "Project B",
-	  "imageSrc": "projects/projectB.png",
-	  "description": "This is a project made to learn the latest languages by building an app.",
-	  "skills": ["React", "Express", "Node", "Sass"],
-	  "deployedLink": "https://example.com/projectB",
-	  "githubLink": "https://github.com/username/projectB",
-	  "demoGifSrc": "projects/projectB-demo.gif"
+	  "title": "Work Day scheduler",
+	  "imageSrc": "workscheduler.png",
+	  "description": "EDx bootcamp challenge to create a simple calendar application",
+	  "skills": ["JavaScript","CSS","HTML"],
+	  "deployedLink": "https://github.com/vilmaglynn/work-day-scheduler",
+	  "githubLink": "https://vilmaglynn.github.io/work-day-scheduler/"
+
 	},
 	{
-	  "title": "Project C",
-	  "imageSrc": "projects/projectC.png",
-	  "description": "This is a project made to learn the latest languages by building an app.",
-	  "skills": ["React", "Express", "Node"],
-	  "deployedLink": "https://example.com/projectC",
-	  "githubLink": "https://github.com/username/projectC",
-	  "demoGifSrc": "projects/projectC-demo.gif"
+	  "title": "Replace Lorem",
+	  "imageSrc": "replace-lorem.png",
+	  "description": "App to create text similar to lorem",
+	  "skills": ["JavaScript","CSS","HTML"],
+	  "deployedLink": "https://vilmaglynn.github.io/day16-replacelorem/",
+	  "githubLink": "https://github.com/vilmaglynn/day16-replacelorem"
+	
 	}
 ]

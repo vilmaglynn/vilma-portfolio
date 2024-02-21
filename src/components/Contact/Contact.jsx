@@ -35,7 +35,7 @@ const Contact = () => {
 						</li>
 						<li className={styles.link}>
 							<FontAwesomeIcon icon="fa-solid fa-file-pdf" className={styles.icon} />
-							<a href="/path/to/resume.pdf" download>Download Resume</a>
+							<a href="./src/assets/CV_2022.pdf" download>Download Resume</a>
 						</li>
 					</ul>
 				</div>
