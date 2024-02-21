@@ -8,7 +8,7 @@ I am Vilma Hernandez, a passionate Software Developer with a keen interest in Ja
 
 ## Portfolio Structure
 
-![portfolio](./assets/screenshot.png)
+![portfolio](./src/assets/screenshot.png)
 
 To explore my portfolio, simply navigate to the respective sections:
 Deployed Link https://vilmaglynn.github.io/vilma-portfolio/
