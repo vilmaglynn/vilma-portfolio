@@ -13,12 +13,6 @@ I am Vilma Hernandez, a passionate Software Developer with a keen interest in Ja
 To explore my portfolio, simply navigate to the respective sections:
 Deployed Link https://vilmaglynn.github.io/vilma-portfolio/
 
-About Me: [(https://vilmaglynn.github.io/about)]
-
-Projects: [https://vilmaglynn.github.io/projects]
-
-Contact: [https://vilmaglynn.github.io/contact]
-
 I value your feedback! If you have any suggestions or questions, feel free to reach out to me.
 
 ## License
